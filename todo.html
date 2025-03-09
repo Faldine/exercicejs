@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="todo.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <h1>My To Do App</h1>
+    <div class="wrapper">
+        <form action="#">
+            <input id="todo-input" name="todo-input" type="text" 
+            placeholder="write anything and hit enter to add" autocomplete="off">
+            <button id="add-button" name="add-button">ADD</button>
+        </form>
+        <ul id="list" name="list">
+            <li class="todo">
+                <input type="checkbox" id="todo-1" name="todo-1">
+                <label class="custom-checkbox" for="todo-1 ">
+                    <img fill="transparent" src="/check_circle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="icon">
+                </label>
+                <label for="todo-1" class="todo-text">
+                    Tache à accomplir
+                </label>
+                <button class="delete-button">
+                    <img fill="var(--secondary-color)"src="/delete_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </button>
+            </li>
+            <li class="todo">
+                <input type="checkbox" id="todo-2" name="todo-2">
+                <label class="custom-checkbox" for="todo-2 ">
+                    <img fill="transparent" src="/check_circle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="icon">
+                </label>
+                <label for="todo-2" class="todo-text">
+                    Tache à accomplir
+                </label>
+                <button class="delete-button">
+                    <img fill="var(--secondary-color)" src="/delete_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </button>
+            </li>
+        </ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>

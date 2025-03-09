@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tableau.css">
+    <title>Formulaire et Tableau d'Inscription</title>
+</head>
+<body>
+    <h1>Formulaire d'Inscription</h1>
+    <div name="wrapper">
+        <form>
+            <label for="lastname">Nom :</label>
+            <input type="text" name="lastname" required>
+          
+            <label for="firstname">Prénom :</label>
+            <input type="text" name="firstname" required>
+          
+            <label for="age">Âge :</label>
+            <input type="number" name="age" required>
+          
+            <label for="sex">Sexe :</label>
+            <input type="text" name="sex" required>
+          
+            <label for="matrimonial">Situation Matrimoniale :</label>
+            <input type="text" name="matrimonial" required>
+          
+            <label for="provenance">Provenance :</label>
+            <input type="text" name="provenance" required>
+          
+            <button type="submit">Valider vos informations</button>
+          </form> 
+          
+          <table>
+            <thead>
+              <tr>
+                <th>Numéro</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Âge</th>
+                <th>Sexe</th>
+                <th>Situation Matrimoniale</th>
+                <th>Provenance</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+          
+    </div>
+    
+    <script src="tableau.js"></script>
+</body>
+</html>

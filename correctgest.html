@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>ToDoList</title>
+  </head>
+  <body>
+    <main>
+        <section>
+            <form action="#" class="flex flex-col justify-center items-center ">
+                <div class="">
+                    <label class="text-[20px]" for="tache">Tâche :</label>
+                    <input class="block border-1 text-[20px] px-26" type="text" name="tache" id="inputTache" placeholder="Entrez la tâche:">
+                </div>
+                <div>
+                    <label class="text-[20px]" for="description">Description :</label>
+                    <textarea class="block border-1 text-[20px] px-29" name="description" id="inputDescription" ></textarea>
+                </div>
+                <div>
+                    <label class="text-[20px]" for="date">Date:</label>
+                    <input  class="block border-1 text-[20px] px-33" type="Date" name="date" id="inputDate">
+                </div>
+                <div class="flex flex-row gap-5">
+                    <div>
+                        <label class="text-[20px]" for="Debut">Début :</label>
+                        <input  class="block border-1 text-[20px] px-10" type="time" id="inputTime">
+                    </div>
+                    <div>
+                        <label class="text-[20px]" for="fin">Fin:</label>
+                        <input  class="block border-1 text-[20px] px-10" type="time" id="inputTime">
+                    </div>
+                </div>
+                <div>
+                    <label class="text-[20px]" for="priorite">Priorité</label>
+                    <select  class="block border-1 text-[20px] px-39" name="priorite" id="inputPriorite">
+                        <option value="essentiel">Essentiel</option>
+                        <option value="secondaire">Secondaire</option>
+                        <option value="optionnel">Optionnel</option>
+                    </select>
+                </div> 
+                <button class="text-[20px] bg-blue-400 px-40 mt-10 py-1">Ajouter</button>
+                <button>Annuler</button>
+            </form>
+        </section>
+    </main>
+
+  </body>
+</html>
